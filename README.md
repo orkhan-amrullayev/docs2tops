@@ -2,7 +2,7 @@
 
 What it basically does:
 - extracts ngrams from all of the input documents
-- extracts meaningful moregrams (2 or more grams) from the docs randomly sampled (sample size(0 to max) depends on user)
+- extracts meaningful moregrams (2 or more grams) from the docs randomly sampled (sample size(0 to max) can be adjusted)
 - creates semi-automated dictionary - if user provided some possible topics, docs2tops provides similar keywords for each provided topic 
 - creates fully-automated and labeled dictionary.
 
