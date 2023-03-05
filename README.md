@@ -26,7 +26,7 @@ from docs2tops import docs2tops
 import pandas as pd
 
 df = pd.read_csv(r"C:\Users\my_file.csv")
-docs = df['my_texual_content'].to_list()
+docs = df['column_name_with_content'].to_list()
 
 candidate_topics_list = ['smell', 'taste', 'delivery', 'packaging']
 moregrams_sample_size = 100  # for maximum: len(docs) 
